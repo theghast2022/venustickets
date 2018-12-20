@@ -14,7 +14,7 @@ client.user.setStatus("dnd")
 }); 
 
 
-lient.on("message", (message) => {
+client.on("message", (message) => {
     /// ALPHA CODES
    if (message.content.startsWith("-new")) {     /// ALPHA CODES
         const reason = message.content.split(" ").slice(1).join(" ");     /// ALPHA CODES
